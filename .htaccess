@@ -1,0 +1,8 @@
+#AddHandler application/x-httpd-phpcgi .php
+php_flag zlib.output_compression On
+AddDefaultCharset UTF-8
+AddType "text/html; charset=UTF-8" .html .php
+php_value default_charset UTF-8
+php_value mbstring.language Japanese
+php_value mbstring.internal_encoding UTF-8
+php_flag mbstring.encoding_translation OFF
